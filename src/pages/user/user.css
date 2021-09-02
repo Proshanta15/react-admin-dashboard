@@ -1,0 +1,188 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+.user{
+    -webkit-box-flex: 4;
+        -ms-flex: 4;
+            flex: 4;
+    padding: 20px;
+}
+.userTitleContainer{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.userAddButton{
+    width: 80px;
+    border: none;
+    padding: 5px;
+    background-color: teal;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.userContainer{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 20px;
+}
+.userShow{
+-webkit-box-flex: 1;
+    -ms-flex: 1;
+        flex: 1;
+padding: 20px;
+-webkit-box-shadow: 0px 0px 11px -1px #000000; 
+    box-shadow: 0px 0px 11px -1px #000000;
+}
+.userUpdate{
+-webkit-box-flex: 2;
+    -ms-flex: 2;
+        flex: 2;
+padding: 20px;
+-webkit-box-shadow: 0px 0px 11px -1px #000000; 
+    box-shadow: 0px 0px 11px -1px #000000;
+    margin-left: 20px;
+}
+.userShowTop{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.userShowImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 20px;
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+.userShowTopTitle{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+.userShowUserName{
+    font-weight: 600;
+}
+.userShowUserTitle{
+    font-weight: 300;
+}
+.userShowBottom{
+    margin-top: 20px;
+}
+.userShowTitle{
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(175, 170, 170);
+}
+.userShowInfo{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;margin: 20px 0px;
+    color: #444;
+}
+.userShowIcon{
+    font-size: 16px !important;
+}
+.userShowInfoTile{
+    margin-left: 10px;
+}
+
+.userUpdateTitle{
+    font-size: 24px;
+    font-weight: 600;
+}
+.userUpdateForm{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-top: 20px;
+}
+
+.userUpdateItem{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 10px;
+}
+.userUpdateItem>label{
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+.userUpdateInput{
+    border: none;
+    width: 250px;
+    height: 30px;
+    border-bottom: 1px solid gray;
+}
+
+
+.userUpdateRight{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.userUpdateUpload{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;-webkit-box-align: center;-ms-flex-align: center;align-items: center;
+}
+
+.userUpdateImg{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    margin-right: 20px;
+}
+.userUpdateIcon{
+    cursor: pointer;
+}
+
+
+.userUpdateButton{
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    background-color: darkblue;
+    color: whitesmoke;
+    font-weight: 600;
+}

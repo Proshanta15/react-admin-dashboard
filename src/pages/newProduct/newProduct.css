@@ -1,0 +1,44 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+.newProduct{
+    -webkit-box-flex: 4;
+        -ms-flex: 4;
+            flex: 4;
+}
+
+.addProductForm{
+    margin-top: 10px;
+}
+.addProductItem{
+    width: 250px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;-webkit-box-orient: vertical;-webkit-box-direction: normal;-ms-flex-direction: column;flex-direction: column;
+    margin-bottom: 10px;
+}
+.addProductItem > label{
+    color: gray;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.addProductItem > input{
+    padding: 10px;
+}
+.addProductItem > select{
+    padding: 10px;
+}
+.addProductButton{
+    margin-top: 10px;
+    padding: 7px 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: darkblue;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
